@@ -3,9 +3,6 @@
 ## Description
 This project implements a basic HashMap data structure in JavaScript. It features methods for setting, retrieving, and removing key-value pairs, as well as for checking the presence of keys and dynamically resizing the internal storage when a specified load factor is exceeded. The implementation showcases how hash tables can provide efficient access to data through hashing and separate chaining for collision handling.
 
-## Objective
-Understanding the application of the .
-
 ### Prerequisites
 
 - Node.js installed on your machine. Check it with the following command.
