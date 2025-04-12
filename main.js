@@ -1,0 +1,37 @@
+import HashMap from './hashmap.js';
+import HashSet from './hashset.js';
+
+const test = new HashMap();
+
+console.log('Initial Capacity: ', test.capacity);
+console.log('Initial Length: ', test.length());
+test.set('apple', 'red');
+test.set('banana', 'yellow');
+test.set('carrot', 'orange');
+test.set('dog', 'brown');
+test.set('elephant', 'gray');
+test.set('frog', 'green');
+test.set('grape', 'purple');
+test.set('hat', 'black');
+test.set('ice cream', 'white');
+test.set('jacket', 'blue');
+test.set('kite', 'pink');
+test.set('lion', 'golden');
+console.log('');
+console.log('--- Insert new data ---');
+console.log('Capacity: ', test.capacity);
+console.log('Length: ', test.length());
+console.log(test.entries());
+console.log('');
+test.set('moon', 'silver');
+console.log('--- Insert new pair (moon, silver) ---');
+console.log('Capacity: ', test.capacity);
+console.log('Length: ', test.length());
+console.log(test.entries());
+console.log('');
+test.set('moon', 'satellite');
+test.set('jacket', 'beige');
+console.log('--- Overwrite existing data (moon and jacket) ---');
+console.log('Capacity: ', test.capacity);
+console.log('Length: ', test.length());
+console.log(test.entries());
